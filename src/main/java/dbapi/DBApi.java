@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.mysql.jdbc.Statement;
+import java.sql.Statement;
 public class DBApi {
 	private final static String JDBC_DRIVER="com.mysql.jdbc.Driver";
 	private final static String URL="jdbc:mysql://localhost/users_rep";
